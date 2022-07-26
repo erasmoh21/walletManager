@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet Manager</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body >
+    <div class="contenedor">
+        <div class="formulario">
+            <form method="POST" id="form" action="/">
+                <fieldset>
+                    <legend>Gestion de acciones</legend>
+
+                    <label for="compania">Compañia</label>
+                    <input type="text" id="compania" name="compania" placeholder="Nombre de la compañia">
+
+                    <label for="ticket">Ticket</label>
+                    <input type="text" id="ticket" name="ticket" placeholder="Ticket de la compañia">
+
+                    <label for="precio">Precio</label>
+                    <input type="text" id="precio" name="precio" placeholder="Precio de compra">
+
+                    <label for="cantidad">Cantidad</label>
+                    <input type="text" id="cantidad" name="cantidad" placeholder="Cantidad">
+
+                    <div>
+                        <h2>Tipo de transaccion</h2>
+                        <div>
+                            <div>
+                                <label for="transaccionCompra">Compra</label>
+                                <input type="checkbox"  name="tipoTransaccion" id="transaccionCompra" value="compra">
+                            </div>
+                            <div>
+                                <label for="transaccionVenta">Venta</label>
+                                <input type="checkbox" name="tipoTransaccion" id="transaccionVenta" value="venta">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" id="botonEnvioDatos">Enviar</button>
+                    <button type="submit" id="botonActualizarDatos">Actualizar</button>
+                    <button type="reset"  id="botonEliminarDatos">Eliminar</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="contenedorAcciones">
+            <h2>Lista de Acciones</h2>
+
+            <div class="contenedorAccionesIndividuales">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

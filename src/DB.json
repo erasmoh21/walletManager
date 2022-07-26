@@ -1,0 +1,37 @@
+[
+	{
+		"Compania": "ff",
+		"ticket": "ff",
+		"precio": "ff",
+		"cantidad": "ff",
+		"tipoTransaccion": "compra"
+	},
+	{
+		"Compania": "f",
+		"ticket": "f",
+		"precio": "f",
+		"cantidad": "f",
+		"tipoTransaccion": "compra"
+	},
+	{
+		"Compania": "f",
+		"ticket": "f",
+		"precio": "f",
+		"cantidad": "f",
+		"tipoTransaccion": "compra"
+	},
+	{
+		"Compania": "g",
+		"ticket": "g",
+		"precio": "g",
+		"cantidad": "g",
+		"tipoTransaccion": null
+	},
+	{
+		"Compania": "Walmart",
+		"ticket": "WMT",
+		"precio": "129",
+		"cantidad": "5",
+		"tipoTransaccion": "compra"
+	}
+]
